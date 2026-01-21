@@ -96,7 +96,7 @@ php artisan serve
 
 After seeding the database, log in with:
 
-* **Email:** [admin@example.com](mailto:admin@example.com)
+* **Email:** [admin@admin.com](mailto:admin@admin.com)
 * **Password:** password
 
 ---
