@@ -1,6 +1,6 @@
 # Laravel Project & Task Management System
 
-This project is a Laravel-based Project & Task Management System developed as part of a technical challenge. It demonstrates authentication, authorization, CRUD operations, activity logging, RESTful APIs, and basic testing using Postman.
+## 📌 Overview This project is a **Laravel-based Project & Task Management System** developed as part of a technical challenge. It demonstrates authentication, authorization, CRUD operations, activity logging, RESTful APIs, and basic automated testing following Laravel best practices. ---
 
 🎯 Challenge Scope (4-Day Plan)
 ✅ Day 1: Authentication & Authorization
