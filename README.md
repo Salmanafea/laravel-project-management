@@ -1,84 +1,96 @@
-# Laravel Project & Task Management System
+Laravel Project & Task Management System
+📌 Overview
 
-## 📌 Overview
+This project is a Laravel-based Project & Task Management System developed as part of a technical challenge. It demonstrates authentication, authorization, CRUD operations, activity logging, RESTful APIs, and basic testing using Postman.
 
-This project is a **Laravel-based Project & Task Management System** developed as part of a technical challenge. It demonstrates authentication, authorization, CRUD operations, activity logging, RESTful APIs, and basic automated testing following Laravel best practices.
+🎯 Challenge Scope (4-Day Plan)
+✅ Day 1: Authentication & Authorization
 
----
+Implemented user authentication using Laravel Breeze
 
-## 🎯 Challenge Scope (4-Day Plan)
+Configured role-based access control using Spatie Laravel Permission
 
-### ✅ Day 1: Authentication & Authorization
+✅ Day 2: Project & Task Management
 
-* Implement user authentication using **Laravel Breeze**
-* Set up role-based access control using **Spatie Laravel Permission**
+Project Management:
 
-### ✅ Day 2: Project & Task Management
+Created database migrations, models, controllers, and views for projects
 
-**Project Management:**
+Implemented full CRUD functionality (Create, Read, Update, Delete)
 
-* Create database migrations, models, controllers, and views for projects
-* Implement CRUD functionality (Create, Read, Update, Delete)
+Task Management:
 
-**Task Management:**
+Created database migrations, models, controllers, and views for tasks
 
-* Create database migrations, models, controllers, and views for tasks
-* Implement CRUD functionality
-* Link tasks to projects
+Implemented full CRUD functionality
 
-### ✅ Day 3: User Management & Activity Logging
+Linked tasks to projects
 
-**User Management:**
+✅ Day 3: User Management & Activity Logging
 
-* Build a basic admin panel to list users and manage roles
+User Management:
 
-**Activity Logging:**
+Built a basic admin panel to list users and manage roles
 
-* Track user actions using **Laravel Activitylog** package
+Activity Logging:
 
-### ✅ Day 4: API & Testing
+Tracked user actions using Laravel Activitylog package
 
-**RESTful API:**
+✅ Day 4: API & Testing
 
-* Create API endpoints for projects and tasks
-* JSON responses for client consumption
+RESTful API:
 
-**Testing:**
+Created API endpoints for projects and tasks
 
-* Write feature and unit tests using **PHPUnit**
-* Test authentication, project, and task CRUD operations
+Responses are in JSON format for client consumption
 
----
+API Testing:
 
-## ✨ Features
+Tested all API endpoints thoroughly using Postman
 
-* User Authentication & Authorization
-* Role-based access control (Admin / User)
-* Project CRUD
-* Task CRUD
-* Admin user management
-* Activity Logging
-* RESTful API
-* Automated testing (PHPUnit)
+Verified CRUD operations and authentication workflows
 
----
+Screenshots and Postman collection included in the repository
 
-## 🛠 Tech Stack
+⚠️ Note: PHPUnit tests are optional in this submission; testing was done via Postman.
 
-* Laravel 10
-* PHP 8+
-* MySQL
-* Laravel Breeze
-* Spatie Laravel Permission
-* Laravel Activitylog
-* Postman
-* Vite + Tailwind CSS
+✨ Features
 
----
+User Authentication & Authorization
 
-## 🚀 Installation & Setup
+Role-based access control (Admin / User)
 
-```bash
+Project CRUD
+
+Task CRUD
+
+Admin user management
+
+Activity Logging
+
+RESTful API
+
+API tested using Postman
+
+🛠 Tech Stack
+
+Laravel 10
+
+PHP 8+
+
+MySQL
+
+Laravel Breeze
+
+Spatie Laravel Permission
+
+Laravel Activitylog
+
+Postman
+
+Vite + Tailwind CSS
+
+🚀 Installation & Setup
 git clone https://github.com/Salmanafea/laravel-project-management.git
 cd laravel-project-management
 composer install
@@ -88,63 +100,64 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate --seed
 php artisan serve
-```
 
----
-
-## 🔐 Default Admin Account
+🔐 Default Admin Account
 
 After seeding the database, log in with:
 
-* **Email:** [admin@admin.com](mailto:admin@admin.com)
-* **Password:** password
+Email: admin@admin.com
 
----
+Password: password
 
-## 🔗 API Documentation
+🔗 API Documentation
 
-* API endpoints available under `/api`
-* Tested using **Postman**
+All API endpoints are available under /api
+
+Tested using Postman
 
 Example endpoints:
 
-```
 GET /api/projects
 GET /api/tasks
-```
+POST /api/projects
+POST /api/tasks
+PUT /api/projects/{id}
+PUT /api/tasks/{id}
+DELETE /api/projects/{id}
+DELETE /api/tasks/{id}
 
----
 
-## 🧪 Running Tests
+Postman collection and sample responses are included in the repository
 
-```bash
-php artisan test
-```
+📂 Project Structure
 
----
+app/Http/Controllers – Web & API controllers
 
-## 📂 Project Structure
+app/Models – Eloquent models
 
-* `app/Http/Controllers` – Web & API controllers
-* `app/Models` – Eloquent models
-* `database/migrations` – Database schema
-* `database/seeders` – Initial data
-* `routes/web.php` – Web routes
-* `routes/api.php` – API routes
-* `tests` – Feature & unit tests
+database/migrations – Database schema
 
----
+database/seeders – Initial data
 
-## 📝 Notes
+routes/web.php – Web routes
 
-* Project strictly follows the 4-day challenge scope
-* Focused on clean architecture, best practices, and core functionality
-* Code is modular, well-documented, and easy to extend
+routes/api.php – API routes
 
----
+tests – Optional PHPUnit tests (not used in this submission)
 
-## 👩‍💻 Author
+📝 Notes
 
-**Salma Nafea**
+Project strictly follows the 4-day challenge scope
 
+Focused on clean architecture, best practices, and core functionality
+
+API endpoints fully tested using Postman
+
+Code is modular, well-documented, and easy to extend
+
+👩‍💻 Author
+Salma Nafea
+GitHub: https://github.com/Salmanafea
+
+Salma Nafea
 GitHub: https://github.com/Salmanafea
